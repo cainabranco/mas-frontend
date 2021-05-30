@@ -99,6 +99,12 @@ export const InputContainer = styled.div`
 
 `;
 
+export const Error = styled.span`
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: coral;
+`;
+
 export const Background = styled.div`
   flex: 1;
   background: linear-gradient(180deg, #1B7E48 0%, rgba(255, 255, 255, 0) 100%), #3CB371 url(${loginBackgroundImg}) no-repeat center;
